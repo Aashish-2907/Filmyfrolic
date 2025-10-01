@@ -95,7 +95,7 @@ html, body {
   border-radius: 1rem;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
   width: 20%;
-  height: 46%;
+  height: auto;
   text-align: center;
   align-items: center;
   padding-top: .2rem;
@@ -178,5 +178,12 @@ html, body {
   font-size: 0.9rem;
   margin: 0.3rem 0 0.5rem;
 }
+
+/* @media (max-width: 768px) {
+  .login-box {
+    width: 80%;
+    height: auto;
+  }
+} */
 
 
